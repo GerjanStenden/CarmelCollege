@@ -13,6 +13,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+using CarmelClasses;
+
 
 
 
@@ -29,6 +31,12 @@ namespace CarmelTest
         List<Button> buttonList;
         Style style1;
 
+        private SQLiteManager sqliteManager;
+        private SettingsManager settingsManager;
+        private UserManager userManager;
+        private ConversionManager conversionManager;
+
+
         public MainWindow()
         {
             InitializeComponent();
@@ -36,7 +44,27 @@ namespace CarmelTest
             converter = new BrushConverter();
             style1 = new System.Windows.Style();
 
+            settingsManager = new SettingsManager();
+            sqliteManager = new SQLiteManager(settingsManager.DatabasePath);
+            userManager = new UserManager(settingsManager, sqliteManager);
+            conversionManager = new ConversionManager(settingsManager, sqliteManager);
+            
             maakStyles();
+        }
+
+        #region opmaak en initialisatie
+        private void maakStyles()
+        {
+            Setter setter1 = new Setter();
+            setter1.Property = Button.BorderBrushProperty;
+            setter1.Value = (Brush)converter.ConvertFromString("#FF551155");
+
+            Setter setter2 = new Setter();
+            setter2.Property = Button.BackgroundProperty;
+            setter2.Value = (Brush)converter.ConvertFromString("#FF551155");
+
+            style1.Setters.Add(setter1);
+            style1.Setters.Add(setter2);
         }
 
         public void vulButtonArray()
@@ -47,39 +75,9 @@ namespace CarmelTest
             buttonList[3] = accountsButton;
             buttonList[4] = settingsButton;
         }
+        #endregion
 
-        // DUbbelklik event voor importbestand
-        private void importTextbox_MouseDoubleClick(object sender, MouseButtonEventArgs e)
-        {
-            // Maak openfiledialog
-            OpenFileDialog open = new OpenFileDialog();
-
-            // Zet opties voor filter
-            open.Filter = "CSV bestanden (.csv)|*.csv";
-            open.Title = "Openen";
-            open.FilterIndex = 1;
-
-            // Laat de openFileDialog zien.
-            Nullable<bool> result = open.ShowDialog();
-
-            // Kijk of gebruiker op Ok heeft geklikt.
-            if (result == true)
-            {
-                // String naar het te importeren bestand.
-                importFile = open.FileName;
-
-                padTextbox.Document.Blocks.Clear();
-                padTextbox.Document.Blocks.Add(new Paragraph(new Run(importFile)));
-            }
-        }
-
-        // Dubbelklik event voor nieuwe locatie pad
-        private void RichTextBox_MouseDoubleClick_1(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
-
+        #region Functies menubuttons van sidebar
         private void convertButton_Click(object sender, RoutedEventArgs e)
         {
             // Ga naar tab 0 - convert
@@ -124,6 +122,39 @@ namespace CarmelTest
 
             // code hieronder
         }
+#endregion
+
+        #region Functies Tabblad nummer 0
+        // DUbbelklik event voor importbestand
+        private void importTextbox_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            // Maak openfiledialog
+            OpenFileDialog open = new OpenFileDialog();
+
+            // Zet opties voor filter
+            open.Filter = "CSV bestanden (.csv)|*.csv";
+            open.Title = "Openen";
+            open.FilterIndex = 1;
+
+            // Laat de openFileDialog zien.
+            Nullable<bool> result = open.ShowDialog();
+
+            // Kijk of gebruiker op Ok heeft geklikt.
+            if (result == true)
+            {
+                // String naar het te importeren bestand.
+                importFile = open.FileName;
+
+                padTextbox.Document.Blocks.Clear();
+                padTextbox.Document.Blocks.Add(new Paragraph(new Run(importFile)));
+            }
+        }
+
+        // Dubbelklik event voor nieuwe locatie pad
+        private void RichTextBox_MouseDoubleClick_1(object sender, MouseButtonEventArgs e)
+        {
+
+        }
 
         private void converteerButton_Click(object sender, RoutedEventArgs e)
         {
@@ -136,19 +167,29 @@ namespace CarmelTest
 
 
         }
+        #endregion
 
-        private void maakStyles()
+        #region Functies tabblad nummer 2
+        //tabs_selectionchanged wordt aangeroepen bij de verwisseling van tabs.
+        private void tabs_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            Setter setter1 = new Setter();
-            setter1.Property = Button.BorderBrushProperty;
-            setter1.Value = (Brush)converter.ConvertFromString("#FF551155");
+            /*Als het Vleugels tabblad wordt aangeroepen moet er in de SQLite database worden gekeken naar
+             *de hoeveelheid vleugels. Hiermee worden de juiste aantal labels en buttons gegenereerd.
+             */
+            if (tabs.SelectedIndex == 2)
+            {
+                //testen van wisseling
+                //Dictionary overnemen van SQLiteManager, met een foreach doorlopen en labels aanmaken per naam.
+                Dictionary<int, string> dict = new Dictionary<int, string>();
+                dict = sqliteManager.Wing_List();
 
-            Setter setter2 = new Setter();
-            setter2.Property = Button.BackgroundProperty;
-            setter2.Value = (Brush)converter.ConvertFromString("#FF551155");
-
-            style1.Setters.Add(setter1);
-            style1.Setters.Add(setter2);
+                MessageBox.Show(" "+dict.Count());
+                
+                
+            }
+            e.Handled = true;
         }
+        #endregion
     }
+        
 }

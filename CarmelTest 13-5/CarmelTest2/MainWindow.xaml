@@ -4,7 +4,7 @@
         Title="MainWindow" Height="500" Width="750">
     <Grid Background="SeaShell">
         <!-- Tabitems worden op volgorde in code gemaakt. -->
-        <TabControl x:Name="tabs" SelectedIndex="1" Background="AliceBlue" TabStripPlacement="Left" HorizontalAlignment="Left" Height="470" Margin="-52,-1,0,0" VerticalAlignment="Top" Width="794">
+        <TabControl x:Name="tabs" SelectedIndex="0" Background="AliceBlue" TabStripPlacement="Left" HorizontalAlignment="Left" Height="470" Margin="-52,0,0,0" VerticalAlignment="Top" Width="794" SelectionChanged="tabs_SelectionChanged" >
             <!-- Content eerste tab-->
             <TabItem Visibility="Hidden" Header="TabItem">
                 <Grid>
@@ -63,6 +63,7 @@
             <TabItem Visibility="Hidden" Header="TabItem">
                 <Grid>
                     <Label Content="Vleugels"  Style="{StaticResource headerLabel}" RenderTransformOrigin="-0.666,-1.149" />
+                    
                 </Grid>
             </TabItem>
             
@@ -90,7 +91,7 @@
         <!-- Buttons in het linkermenu -->
         <Button x:Name="templatesButton" Style="{StaticResource menuButton}"  Content="Templates" HorizontalAlignment="Left" Margin="32,64,0,0" VerticalAlignment="Top" RenderTransformOrigin="5.547,2.85" Click="templatesButton_Click" />
         <Button x:Name="vleugelButton" Style="{StaticResource menuButton}" Content="Vleugels" HorizontalAlignment="Left" Margin="32,109,0,0" VerticalAlignment="Top" RenderTransformOrigin="5.547,2.85" Click="vleugelButton_Click" />
-        <Button x:Name="accountsButton" Style="{StaticResource menuButton}" Content="Accounts" HorizontalAlignment="Left" Margin="32,154,0,0" VerticalAlignment="Top" RenderTransformOrigin="5.547,2.85" Click="accountsButton_Click" />
+        <Button x:Name="accountsButton" Style="{StaticResource menuButton}" Content="Accounts" Margin="32,154,590,0" VerticalAlignment="Top" RenderTransformOrigin="5.547,2.85" Click="accountsButton_Click" Width="Auto" />
         <Button x:Name="settingsButton" Style="{StaticResource menuButton}" Content="Settings" HorizontalAlignment="Left" Margin="32,410,0,0" VerticalAlignment="Top" RenderTransformOrigin="5.547,2.85" Click="settingsButton_Click" />
         <Button x:Name="convertButton" Style="{StaticResource menuButton}" Content="Convert" HorizontalAlignment="Left" Margin="32,19,0,0" VerticalAlignment="Top" RenderTransformOrigin="5.547,2.85" Click="convertButton_Click" />
     </Grid>
