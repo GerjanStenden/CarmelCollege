@@ -1,0 +1,97 @@
+﻿<Window x:Class="CarmelTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="500" Width="750">
+    <Grid Background="SeaShell">
+        <!-- Tabitems worden op volgorde in code gemaakt. -->
+        <TabControl x:Name="tabs" SelectedIndex="1" Background="AliceBlue" TabStripPlacement="Left" HorizontalAlignment="Left" Height="470" Margin="-52,-1,0,0" VerticalAlignment="Top" Width="794">
+            <!-- Content eerste tab-->
+            <TabItem Visibility="Hidden" Header="TabItem">
+                <Grid>
+                    <Label Content="Convert"  Style="{StaticResource headerLabel}" RenderTransformOrigin="-0.666,-1.149" />
+                    <Label x:Name="import" Content="Import&#xA;" HorizontalAlignment="Left" Margin="243,39,0,0" VerticalAlignment="Top" Width="88" Height="31"/>
+                    <Label x:Name="template" Content="Template&#xA;&#xA;" HorizontalAlignment="Left" Margin="243,75,0,0" VerticalAlignment="Top" Width="88" Height="31"/>
+                    <Label x:Name="nieuweLocatie" Content="Nieuwe locatie:&#xA;" HorizontalAlignment="Left" Margin="243,111,0,0" VerticalAlignment="Top" Width="100" Height="31"/>
+                    <Label x:Name="oudeLocatie" Content="Oude locatie:&#xA;" HorizontalAlignment="Left" Margin="243,147,0,0" VerticalAlignment="Top" Width="88" Height="31"/>
+                    <RichTextBox x:Name="importTextbox" HorizontalAlignment="Left" Height="31" Margin="359,39,0,0" VerticalAlignment="Top" Width="320" MouseDoubleClick="importTextbox_MouseDoubleClick">
+                        <FlowDocument>
+                            <Paragraph>
+                                <Run Text="Klik om een rooster te importeren."/>
+                            </Paragraph>
+                        </FlowDocument>
+                    </RichTextBox>
+                    <RichTextBox HorizontalAlignment="Left" Height="31" Margin="359,75,0,0" VerticalAlignment="Top" Width="320">
+                        <FlowDocument>
+                            <Paragraph>
+                                <Run Text="50 minuten rooster"/>
+                            </Paragraph>
+                        </FlowDocument>
+                    </RichTextBox>
+                    <RichTextBox x:Name="padTextbox" HorizontalAlignment="Left" Height="31" Margin="359,111,0,0" VerticalAlignment="Top" Width="320" MouseDoubleClick="RichTextBox_MouseDoubleClick_1">
+                        <FlowDocument>
+                            <Paragraph>
+                                <Run Text="Klik om een file path te selecteren"/>
+                            </Paragraph>
+                        </FlowDocument>
+                    </RichTextBox>
+                    <RichTextBox HorizontalAlignment="Left" Height="31" Margin="359,145.701,0,0" VerticalAlignment="Top" Width="320">
+                        <FlowDocument>
+                            <Paragraph>
+                                <Run Text="C://oud"/>
+                            </Paragraph>
+                        </FlowDocument>
+                    </RichTextBox>
+                    <Button x:Name="converteerButton" Content="Converteer" Style="{StaticResource menuButton}" HorizontalAlignment="Left" Margin="560,211.701,0,0" VerticalAlignment="Top" RenderTransformOrigin="5.547,2.85" Click="converteerButton_Click" Background="#FF832083" />
+                </Grid>
+            </TabItem>
+
+            <!-- Content tweede tab-->
+            <TabItem Visibility="Hidden" Header="TabItem">
+                <Grid>
+                    <Label Content="Templates"  Style="{StaticResource headerLabel}" RenderTransformOrigin="-0.666,-1.149" />
+                    <Label Content="Template:" FontSize="16" Height="100" Width="100" Margin="210,39,419,325"/>
+                    <ComboBox Name="templatesLijst" HorizontalAlignment="Left" Margin="345,45,0,0" VerticalAlignment="Top" Width="200"/>
+
+                    <Label Content="Rooster:" FontSize="16" Height="100" Width="100" Margin="210,80,419,324"/>
+                    <ComboBox Name="roosterLijst" HorizontalAlignment="Left" Margin="345,85.42,0,0" VerticalAlignment="Top" Width="200"/>
+                    <Button Name="addTemplateButton" Content="{StaticResource addImage}" HorizontalAlignment="Left" Margin="556.785,44.172,0,0" VerticalAlignment="Top" Height="25" Background="#001B1B1C" BorderBrush="#00707070" Foreground="#00000000" />
+
+                </Grid>
+            </TabItem>
+
+            <!-- Content derde tab-->
+            <TabItem Visibility="Hidden" Header="TabItem">
+                <Grid>
+                    <Label Content="Vleugels"  Style="{StaticResource headerLabel}" RenderTransformOrigin="-0.666,-1.149" />
+                </Grid>
+            </TabItem>
+            
+            <!-- Content vierde tab-->
+            <TabItem Visibility="Hidden" Header="TabItem">
+                <Grid>
+                    <Label Content="Accounts"  Style="{StaticResource headerLabel}" RenderTransformOrigin="-0.666,-1.149" />
+                </Grid>
+            </TabItem>
+
+            <!-- Content vijfde tab-->
+            <TabItem Visibility="Hidden" Header="TabItem">
+                <Grid>
+                    <Label Content="Settings" Style="{StaticResource headerLabel}" RenderTransformOrigin="-0.666,-1.149"  />
+                </Grid>
+            </TabItem>
+            
+        </TabControl>
+        
+        <!-- Paarse vlak-->
+        <Canvas HorizontalAlignment="Left" Height="469" VerticalAlignment="Top" Width="177" Background="#FF832083">
+            <!-- Plaatje -->
+            <Image Height="87" Canvas.Left="24.358" Canvas.Top="310.448" Width="130" RenderTransformOrigin="0.478,0.522" Source="images/CarmelLogo.jpg"/>
+        </Canvas>
+        <!-- Buttons in het linkermenu -->
+        <Button x:Name="templatesButton" Style="{StaticResource menuButton}"  Content="Templates" HorizontalAlignment="Left" Margin="32,64,0,0" VerticalAlignment="Top" RenderTransformOrigin="5.547,2.85" Click="templatesButton_Click" />
+        <Button x:Name="vleugelButton" Style="{StaticResource menuButton}" Content="Vleugels" HorizontalAlignment="Left" Margin="32,109,0,0" VerticalAlignment="Top" RenderTransformOrigin="5.547,2.85" Click="vleugelButton_Click" />
+        <Button x:Name="accountsButton" Style="{StaticResource menuButton}" Content="Accounts" HorizontalAlignment="Left" Margin="32,154,0,0" VerticalAlignment="Top" RenderTransformOrigin="5.547,2.85" Click="accountsButton_Click" />
+        <Button x:Name="settingsButton" Style="{StaticResource menuButton}" Content="Settings" HorizontalAlignment="Left" Margin="32,410,0,0" VerticalAlignment="Top" RenderTransformOrigin="5.547,2.85" Click="settingsButton_Click" />
+        <Button x:Name="convertButton" Style="{StaticResource menuButton}" Content="Convert" HorizontalAlignment="Left" Margin="32,19,0,0" VerticalAlignment="Top" RenderTransformOrigin="5.547,2.85" Click="convertButton_Click" />
+    </Grid>
+</Window>

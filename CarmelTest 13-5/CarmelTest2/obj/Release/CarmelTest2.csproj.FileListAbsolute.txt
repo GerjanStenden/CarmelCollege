@@ -1,0 +1,39 @@
+C:\Users\svenv_000\Downloads\CarmelTest2 8-5\CarmelTest2 8-5\CarmelTest2\obj\Release\MainWindow.baml
+C:\Users\svenv_000\Downloads\CarmelTest2 8-5\CarmelTest2 8-5\CarmelTest2\obj\Release\MainWindow.g.cs
+C:\Users\svenv_000\Downloads\CarmelTest2 8-5\CarmelTest2 8-5\CarmelTest2\obj\Release\CarmelTest2_MarkupCompile.cache
+C:\Users\svenv_000\Downloads\CarmelTest2 8-5\CarmelTest2 8-5\CarmelTest2\bin\Release\CarmelTest2.exe
+C:\Users\svenv_000\Downloads\CarmelTest2 8-5\CarmelTest2 8-5\CarmelTest2\bin\Release\CarmelTest2.pdb
+C:\Users\svenv_000\Downloads\CarmelTest2 8-5\CarmelTest2 8-5\CarmelTest2\obj\Release\App.baml
+C:\Users\svenv_000\Downloads\CarmelTest2 8-5\CarmelTest2 8-5\CarmelTest2\obj\Release\App.g.cs
+C:\Users\svenv_000\Downloads\CarmelTest2 8-5\CarmelTest2 8-5\CarmelTest2\obj\Release\CarmelTest2.g.resources
+C:\Users\svenv_000\Downloads\CarmelTest2 8-5\CarmelTest2 8-5\CarmelTest2\obj\Release\CarmelTest2.Properties.Resources.resources
+C:\Users\svenv_000\Downloads\CarmelTest2 8-5\CarmelTest2 8-5\CarmelTest2\obj\Release\CarmelTest2.csproj.GenerateResource.Cache
+C:\Users\svenv_000\Downloads\CarmelTest2 8-5\CarmelTest2 8-5\CarmelTest2\obj\Release\CarmelTest2.exe
+C:\Users\svenv_000\Downloads\CarmelTest2 8-5\CarmelTest2 8-5\CarmelTest2\obj\Release\CarmelTest2.pdb
+C:\Users\svenv_000\Downloads\CarmelTest2 8-5\CarmelTest2 8-5\CarmelTest2\obj\Release\CarmelTest2.csprojResolveAssemblyReference.cache
+C:\Users\svenv_000\Desktop\CarmelTest2 9-5\CarmelTest2 8-5\CarmelTest2\obj\Release\CarmelTest2.exe
+C:\Users\svenv_000\Desktop\CarmelTest2 9-5\CarmelTest2 8-5\CarmelTest2\obj\Release\CarmelTest2.pdb
+C:\Users\svenv_000\Desktop\CarmelTest2 9-5\CarmelTest2 8-5\CarmelTest2\bin\Release\CarmelTest2.exe
+C:\Users\svenv_000\Desktop\CarmelTest2 9-5\CarmelTest2 8-5\CarmelTest2\bin\Release\CarmelTest2.pdb
+C:\Users\svenv_000\Desktop\CarmelTest2 9-5\CarmelTest2 8-5\CarmelTest2\obj\Release\CarmelTest2.csprojResolveAssemblyReference.cache
+C:\Users\svenv_000\Desktop\CarmelTest2 9-5\CarmelTest2 8-5\CarmelTest2\obj\Release\MainWindow.baml
+C:\Users\svenv_000\Desktop\CarmelTest2 9-5\CarmelTest2 8-5\CarmelTest2\obj\Release\App.baml
+C:\Users\svenv_000\Desktop\CarmelTest2 9-5\CarmelTest2 8-5\CarmelTest2\obj\Release\MainWindow.g.cs
+C:\Users\svenv_000\Desktop\CarmelTest2 9-5\CarmelTest2 8-5\CarmelTest2\obj\Release\App.g.cs
+C:\Users\svenv_000\Desktop\CarmelTest2 9-5\CarmelTest2 8-5\CarmelTest2\obj\Release\CarmelTest2_MarkupCompile.cache
+C:\Users\svenv_000\Desktop\CarmelTest2 9-5\CarmelTest2 8-5\CarmelTest2\obj\Release\CarmelTest2.g.resources
+C:\Users\svenv_000\Desktop\CarmelTest2 9-5\CarmelTest2 8-5\CarmelTest2\obj\Release\CarmelTest2.Properties.Resources.resources
+C:\Users\svenv_000\Desktop\CarmelTest2 9-5\CarmelTest2 8-5\CarmelTest2\obj\Release\CarmelTest2.csproj.GenerateResource.Cache
+C:\Users\svenv_000\Downloads\CarmelTest2 9-5\CarmelTest2 9-5\CarmelTest2 8-5\CarmelTest2\obj\Release\CarmelTest2.exe
+C:\Users\svenv_000\Downloads\CarmelTest2 9-5\CarmelTest2 9-5\CarmelTest2 8-5\CarmelTest2\obj\Release\CarmelTest2.pdb
+C:\Users\svenv_000\Downloads\CarmelTest2 9-5\CarmelTest2 9-5\CarmelTest2 8-5\CarmelTest2\bin\Release\CarmelTest2.exe
+C:\Users\svenv_000\Downloads\CarmelTest2 9-5\CarmelTest2 9-5\CarmelTest2 8-5\CarmelTest2\bin\Release\CarmelTest2.pdb
+C:\Users\svenv_000\Downloads\CarmelTest2 9-5\CarmelTest2 9-5\CarmelTest2 8-5\CarmelTest2\obj\Release\CarmelTest2.csprojResolveAssemblyReference.cache
+C:\Users\svenv_000\Downloads\CarmelTest2 9-5\CarmelTest2 9-5\CarmelTest2 8-5\CarmelTest2\obj\Release\MainWindow.baml
+C:\Users\svenv_000\Downloads\CarmelTest2 9-5\CarmelTest2 9-5\CarmelTest2 8-5\CarmelTest2\obj\Release\App.baml
+C:\Users\svenv_000\Downloads\CarmelTest2 9-5\CarmelTest2 9-5\CarmelTest2 8-5\CarmelTest2\obj\Release\MainWindow.g.cs
+C:\Users\svenv_000\Downloads\CarmelTest2 9-5\CarmelTest2 9-5\CarmelTest2 8-5\CarmelTest2\obj\Release\App.g.cs
+C:\Users\svenv_000\Downloads\CarmelTest2 9-5\CarmelTest2 9-5\CarmelTest2 8-5\CarmelTest2\obj\Release\CarmelTest2_MarkupCompile.cache
+C:\Users\svenv_000\Downloads\CarmelTest2 9-5\CarmelTest2 9-5\CarmelTest2 8-5\CarmelTest2\obj\Release\CarmelTest2.g.resources
+C:\Users\svenv_000\Downloads\CarmelTest2 9-5\CarmelTest2 9-5\CarmelTest2 8-5\CarmelTest2\obj\Release\CarmelTest2.Properties.Resources.resources
+C:\Users\svenv_000\Downloads\CarmelTest2 9-5\CarmelTest2 9-5\CarmelTest2 8-5\CarmelTest2\obj\Release\CarmelTest2.csproj.GenerateResource.Cache
