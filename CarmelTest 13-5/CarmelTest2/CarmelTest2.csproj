@@ -89,6 +89,17 @@
   <ItemGroup>
     <Resource Include="images\CarmelLogo.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\CarmelClasses\CarmelClasses\CarmelClasses.csproj">
+      <Project>{df97b71b-586a-4e79-a34b-75bdb7b85f4d}</Project>
+      <Name>CarmelClasses</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\add-01.png" />
+    <Resource Include="images\delete-01.png" />
+    <Resource Include="images\edit.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

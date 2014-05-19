@@ -16,3 +16,6 @@ C:\Users\Thomas\documents\visual studio 2012\Projects\CarmelClasses\CarmelClasse
 C:\Users\Thomas\documents\visual studio 2012\Projects\CarmelClasses\CarmelClasses\obj\Debug\CarmelClasses.application
 C:\Users\Thomas\documents\visual studio 2012\Projects\CarmelClasses\CarmelClasses\obj\Debug\CarmelClasses.exe
 C:\Users\Thomas\documents\visual studio 2012\Projects\CarmelClasses\CarmelClasses\obj\Debug\CarmelClasses.pdb
+D:\GitHub\CarmelCollege\CarmelClasses\CarmelClasses\bin\Debug\CarmelClasses.exe.config
+D:\GitHub\CarmelCollege\CarmelClasses\CarmelClasses\obj\Debug\CarmelClasses.exe
+D:\GitHub\CarmelCollege\CarmelClasses\CarmelClasses\obj\Debug\CarmelClasses.pdb

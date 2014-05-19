@@ -37,3 +37,22 @@ C:\Users\svenv_000\Downloads\CarmelTest2 9-5\CarmelTest2 9-5\CarmelTest2 8-5\Car
 C:\Users\svenv_000\Downloads\CarmelTest2 9-5\CarmelTest2 9-5\CarmelTest2 8-5\CarmelTest2\obj\Release\CarmelTest2.g.resources
 C:\Users\svenv_000\Downloads\CarmelTest2 9-5\CarmelTest2 9-5\CarmelTest2 8-5\CarmelTest2\obj\Release\CarmelTest2.Properties.Resources.resources
 C:\Users\svenv_000\Downloads\CarmelTest2 9-5\CarmelTest2 9-5\CarmelTest2 8-5\CarmelTest2\obj\Release\CarmelTest2.csproj.GenerateResource.Cache
+D:\GitHub\CarmelCollege\CarmelTest 13-5\CarmelTest2\obj\Release\CarmelTest2.exe
+D:\GitHub\CarmelCollege\CarmelTest 13-5\CarmelTest2\obj\Release\CarmelTest2.pdb
+D:\GitHub\CarmelCollege\CarmelTest 13-5\CarmelTest2\bin\Release\CarmelTest2.exe
+D:\GitHub\CarmelCollege\CarmelTest 13-5\CarmelTest2\bin\Release\CarmelTest2.pdb
+D:\GitHub\CarmelCollege\CarmelTest 13-5\CarmelTest2\obj\Release\CarmelTest2.csprojResolveAssemblyReference.cache
+D:\GitHub\CarmelCollege\CarmelTest 13-5\CarmelTest2\obj\Release\MainWindow.baml
+D:\GitHub\CarmelCollege\CarmelTest 13-5\CarmelTest2\obj\Release\App.baml
+D:\GitHub\CarmelCollege\CarmelTest 13-5\CarmelTest2\obj\Release\MainWindow.g.cs
+D:\GitHub\CarmelCollege\CarmelTest 13-5\CarmelTest2\obj\Release\App.g.cs
+D:\GitHub\CarmelCollege\CarmelTest 13-5\CarmelTest2\obj\Release\CarmelTest2_MarkupCompile.cache
+D:\GitHub\CarmelCollege\CarmelTest 13-5\CarmelTest2\obj\Release\CarmelTest2.g.resources
+D:\GitHub\CarmelCollege\CarmelTest 13-5\CarmelTest2\obj\Release\CarmelTest2.Properties.Resources.resources
+D:\GitHub\CarmelCollege\CarmelTest 13-5\CarmelTest2\obj\Release\CarmelTest2.csproj.GenerateResource.Cache
+D:\GitHub\CarmelCollege\CarmelTest 13-5\CarmelTest2\bin\Release\x64\SQLite.Interop.dll
+D:\GitHub\CarmelCollege\CarmelTest 13-5\CarmelTest2\bin\Release\x86\SQLite.Interop.dll
+D:\GitHub\CarmelCollege\CarmelTest 13-5\CarmelTest2\bin\Release\CarmelClasses.exe
+D:\GitHub\CarmelCollege\CarmelTest 13-5\CarmelTest2\bin\Release\System.Data.SQLite.dll
+D:\GitHub\CarmelCollege\CarmelTest 13-5\CarmelTest2\bin\Release\CarmelClasses.pdb
+D:\GitHub\CarmelCollege\CarmelTest 13-5\CarmelTest2\bin\Release\System.Data.SQLite.xml
